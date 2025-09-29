@@ -36,6 +36,5 @@ if (!isNaN(n) && !isNaN(d)) {
 
     let q = new Quickchart(n, d);
     document.getElementById("contenido").innerHTML = '<img src="' + q.generarSrcImg() + '" />';
-} else {
-    document.getElementById("contenido").innerHTML = "<p>Por favor, agrega n y d en la URL</p>";
 }
+
