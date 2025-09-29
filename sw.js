@@ -1,6 +1,6 @@
 //sw.js
 // Nombre del caché
-const cacheName = 'helloWorld-v1';
+const cacheName = 'caché-v1';
 
 // Archivos que se deben cachear
 const archivosACachear = [
@@ -47,5 +47,6 @@ self.addEventListener('fetch', function(event) {
       })
   );
 });
+
 
 
